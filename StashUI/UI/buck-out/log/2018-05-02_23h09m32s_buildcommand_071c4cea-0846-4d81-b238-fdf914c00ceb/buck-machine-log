@@ -1,0 +1,3 @@
+InvocationInfo {"buildId":"071c4cea-0846-4d81-b238-fdf914c00ceb","superConsoleEnabled":true,"isDaemon":true,"subCommand":"buildcommand","commandArgs":["build","//UI/Pod:SnapKit"],"unexpandedCommandArgs":["build","//UI/Pod:SnapKit"],"buckLogDir":"buck-out/log","timestampMillis":1525302572637}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":-1}

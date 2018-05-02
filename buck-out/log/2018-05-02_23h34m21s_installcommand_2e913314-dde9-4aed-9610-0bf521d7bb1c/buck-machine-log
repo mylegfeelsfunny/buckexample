@@ -1,0 +1,4 @@
+InvocationInfo {"buildId":"2e913314-dde9-4aed-9610-0bf521d7bb1c","superConsoleEnabled":true,"isDaemon":true,"subCommand":"installcommand","commandArgs":["install","--run",":BuckExampleApp","lldb","-p","22097"],"unexpandedCommandArgs":["install","--run",":BuckExampleApp","lldb","-p","22097"],"buckLogDir":"buck-out/log","timestampMillis":1525304061832}
+FileDelete {"timestamp":1525304062043,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=.git/index.lock}"}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":-1}

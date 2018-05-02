@@ -1,0 +1,6 @@
+InvocationInfo {"buildId":"7751a430-1def-4fdd-94ea-8b94b8995802","superConsoleEnabled":true,"isDaemon":true,"subCommand":"buildcommand","commandArgs":["build","//Pods:Dwifft"],"unexpandedCommandArgs":["build","//Pods:Dwifft"],"buckLogDir":"buck-out/log","timestampMillis":1525302668853}
+ParseStarted {"timestamp":1525302669381}
+ParseFinished {"timestamp":1525302669384}
+BuildRuleEvent.Finished {"timestamp":1525302669421,"duration":{"wallMillisDuration":14},"status":"SUCCESS","cacheResult":{"type":"IGNORED"},"origin":"7751a430-1def-4fdd-94ea-8b94b8995802","ruleKeys":{"ruleKey":{"hashCode":"8c5a8c4cba58c9a6acf933f6fc9182a8bb1ca004"},"inputRuleKey":{"hashCode":"0f87de67093cb4f52becf894e730b16a9ae0a311"}},"outputHash":"8b7c52a136d42de23dd258155cda0aa101443c0d","successTypeName":"BUILT_LOCALLY","buildRule":{"type":"noop_build_rule","name":"//Pods:Dwifft#iphonesimulator-x86_64,static"}}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":1,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":0}

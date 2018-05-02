@@ -1,0 +1,24 @@
+apple_asset_catalog(
+  name = 'ActivityIndicatorViewAssets',
+  dirs = ['UI/activityindicator/ActivityIndicatorView.xcassets'],
+  app_icon = 'AppIcon',
+)
+
+apple_library(
+              name = 'StashUI',
+              visibility = ['PUBLIC'],
+              preprocessor_flags = ['-D', 'PRODUCT_NAME=StashUI'],
+              exported_headers = glob([
+                                       'StashUI.h',
+                                       ]),
+              srcs = glob([
+                           'UI/*.swift',
+                           'UI/**/*.swift',
+                           'UI/**/**/*.swift',
+                           ]),
+              deps = ['//StashUI/UI/Pods:SnapKit', '//StashUI/UI/Pods:Dwifft', ':ActivityIndicatorViewAssets'],
+              frameworks = [
+                            '$SDKROOT/System/Library/Frameworks/Foundation.framework',
+                            '$SDKROOT/System/Library/Frameworks/UIKit.framework',
+                            ],
+              )

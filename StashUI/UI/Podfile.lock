@@ -1,0 +1,20 @@
+PODS:
+  - Dwifft (0.8)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - Dwifft
+  - SnapKit (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Dwifft
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Dwifft: 463e61d07322fdf83b32ee6975ca1b20708db746
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: 6a9be40dbb6cc7132fd107f658631f13a14b2799
+
+COCOAPODS: 1.5.0

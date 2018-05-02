@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64AEB3FE4B13EC8039FE60AF /* Pods_Dependencies_BuckExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41228C748553D798A51B104 /* Pods_Dependencies_BuckExample.framework */; };
 		6DCB80402084CCA1002AFDE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB803F2084CCA1002AFDE1 /* AppDelegate.swift */; };
 		6DCB80422084CCA1002AFDE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB80412084CCA1002AFDE1 /* ViewController.swift */; };
 		6DCB80452084CCA1002AFDE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DCB80432084CCA1002AFDE1 /* Main.storyboard */; };
@@ -36,6 +37,9 @@
 		6DCB80502084CCA3002AFDE1 /* BuckExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuckExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DCB80542084CCA3002AFDE1 /* BuckExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuckExampleTests.swift; sourceTree = "<group>"; };
 		6DCB80562084CCA3002AFDE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEACE04BAB2C5A8E1DAE50A2 /* Pods-Dependencies-BuckExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dependencies-BuckExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dependencies-BuckExample/Pods-Dependencies-BuckExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C41228C748553D798A51B104 /* Pods_Dependencies_BuckExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dependencies_BuckExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27BA4A19AA1BD6F056BA44F /* Pods-Dependencies-BuckExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dependencies-BuckExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dependencies-BuckExample/Pods-Dependencies-BuckExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64AEB3FE4B13EC8039FE60AF /* Pods_Dependencies_BuckExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +67,8 @@
 				6DCB803E2084CCA1002AFDE1 /* BuckExample */,
 				6DCB80532084CCA3002AFDE1 /* BuckExampleTests */,
 				6DCB803D2084CCA1002AFDE1 /* Products */,
+				E03CDBF391BFAF09851995FC /* Pods */,
+				E6A7538422160D55504A4F7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +103,23 @@
 			path = BuckExampleTests;
 			sourceTree = "<group>";
 		};
+		E03CDBF391BFAF09851995FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEACE04BAB2C5A8E1DAE50A2 /* Pods-Dependencies-BuckExample.debug.xcconfig */,
+				F27BA4A19AA1BD6F056BA44F /* Pods-Dependencies-BuckExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6A7538422160D55504A4F7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C41228C748553D798A51B104 /* Pods_Dependencies_BuckExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DCB80592084CCA3002AFDE1 /* Build configuration list for PBXNativeTarget "BuckExample" */;
 			buildPhases = (
+				A1154469E148021805011B1B /* [CP] Check Pods Manifest.lock */,
 				6DCB80382084CCA1002AFDE1 /* Sources */,
 				6DCB80392084CCA1002AFDE1 /* Frameworks */,
 				6DCB803A2084CCA1002AFDE1 /* Resources */,
+				C3135DD94789C539FE1AAE89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,6 +217,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1154469E148021805011B1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dependencies-BuckExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3135DD94789C539FE1AAE89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dependencies-BuckExample/Pods-Dependencies-BuckExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/StashUI/StashUI.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StashUI.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dependencies-BuckExample/Pods-Dependencies-BuckExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6DCB80382084CCA1002AFDE1 /* Sources */ = {
@@ -291,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -345,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -356,15 +423,14 @@
 		};
 		6DCB805A2084CCA3002AFDE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEACE04BAB2C5A8E1DAE50A2 /* Pods-Dependencies-BuckExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YTGRA6MV9;
 				INFOPLIST_FILE = BuckExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stash.stashinvest.BuckExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -374,15 +440,14 @@
 		};
 		6DCB805B2084CCA3002AFDE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F27BA4A19AA1BD6F056BA44F /* Pods-Dependencies-BuckExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YTGRA6MV9;
 				INFOPLIST_FILE = BuckExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stash.stashinvest.BuckExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -398,11 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YTGRA6MV9;
 				INFOPLIST_FILE = BuckExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stash.stashinvest.BuckExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -419,11 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YTGRA6MV9;
 				INFOPLIST_FILE = BuckExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stash.stashinvest.BuckExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

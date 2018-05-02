@@ -1,0 +1,6 @@
+InvocationInfo {"buildId":"bf04a90f-2b09-4803-847d-8040b94cf0e5","superConsoleEnabled":true,"isDaemon":true,"subCommand":"buildcommand","commandArgs":["build","//Pods:SnapKit"],"unexpandedCommandArgs":["build","//Pods:SnapKit"],"buckLogDir":"buck-out/log","timestampMillis":1525302642026}
+ParseStarted {"timestamp":1525302642822}
+ParseFinished {"timestamp":1525302642850}
+BuildRuleEvent.Finished {"timestamp":1525302643368,"duration":{"wallMillisDuration":99},"status":"SUCCESS","cacheResult":{"type":"IGNORED"},"origin":"bf04a90f-2b09-4803-847d-8040b94cf0e5","ruleKeys":{"ruleKey":{"hashCode":"2bfe641b3a5a6913f7215e015488e94f567819e1"},"inputRuleKey":{"hashCode":"df634e0c192ba1ba869de516b67935cd11c8caa8"}},"outputHash":"3fed072fb3418df549d024b107f335efa08f8001","successTypeName":"BUILT_LOCALLY","buildRule":{"type":"noop_build_rule","name":"//Pods:SnapKit#iphonesimulator-x86_64,static"}}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":1,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":0}

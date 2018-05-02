@@ -1,0 +1,16 @@
+[cxx]
+  default_platform = iphonesimulator-x86_64
+  cflags = -g -fmodules -fobjc-arc -D BUCK -w -std=c11
+  combined_preprocess_and_compile = true
+
+[swift]
+  version = 4.1
+  compiler_flags = -DBUCK -whole-module-optimization -enable-testing -suppress-warnings
+
+[apple]
+  xctool_default_destination_specifier = platform=iOS Simulator
+  xctool_path = /usr/local/Cellar/xctool/0.3.4/libexec/bin/xctool
+
+[alias]
+  app = //:BuckExampleApp
+  runtests = //:BuckExampleTests

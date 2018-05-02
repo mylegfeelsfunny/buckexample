@@ -1,0 +1,55 @@
+m Exclude the build directory
+build/*
+StashCore/Core/build/*
+ModuleCache.noindex
+StashUI/UI/build/*
+*.orig
+StashInvest/supporting files/Assets.xcassets/*
+
+# Exclude temp nibs and swap files
+*~.nib
+*.swp
+
+# Exclude svn directories
+.svn/
+
+# Exclude OS X folder attributes
+.DS_Store
+ 
+# Exclude user-specific XCode 3 and 4 files
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+*.xcuserdata
+xcuserdata
+Storage
+
+# Exclude python compiled bytecode
+*.pyc
+
+# PROJECT SPECIFIC
+*.psd
+
+#Cocoapods
+Pods
+
+#Fitnesse
+ModuleCache
+Logs
+FitNesseRoot/files/testResults
+OCSlimProjectTestRunner-Error.log
+LaunchFitnesse
+OCSlimProjectTestRunner.sh
+
+#fastlaneXCTest
+fastlane/report.xml
+MacrosKeys.h
+Credentials.generated.swift
+env-vars.sh
+test_reports
+Index
+

@@ -1,0 +1,23 @@
+PODS:
+  - SnapKit (4.0.0)
+  - StashUI (0.1.0):
+    - SnapKit
+
+DEPENDENCIES:
+  - StashUI (from `StashUI`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  StashUI:
+    :path: StashUI
+
+SPEC CHECKSUMS:
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  StashUI: bb2a550bc87a69cb84f2dcb6b813cee75b055e65
+
+PODFILE CHECKSUM: f2c6d680b216fb9136229bbc27dd5757c9f0314b
+
+COCOAPODS: 1.5.0
