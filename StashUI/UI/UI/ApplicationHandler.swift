@@ -10,10 +10,12 @@ import Foundation
 import UIKit
 
 public protocol ApplicationHandlerInterface {
-    
+
     func canOpenURL(_ url: URL) -> Bool
     func open(_ url: URL)
 
     var statusBarFrameHeight: CGFloat { get }
     var keyWindow: UIWindow? { get }
+
+    // tests
 }

@@ -1,1 +1,0 @@
-buck-out/gen/BuckExampleTests#apple-test-library,dwarf,iphonesimulator-x86_64,mach-o-bundle,swift-compile/BuckExampleTests.o
