@@ -1,0 +1,33 @@
+InvocationInfo {"buildId":"ac9e95aa-0e9f-463c-9e49-a0fc5eec0799","superConsoleEnabled":true,"isDaemon":true,"subCommand":"projectcommand","commandArgs":["project","--ide","xcode","--build-with-buck"],"unexpandedCommandArgs":["project","--ide","xcode","--build-with-buck"],"buckLogDir":"buck-out/log","timestampMillis":1525355202641}
+FileDelete {"timestamp":1525355202706,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings}"}
+FileDelete {"timestamp":1525355202706,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist}"}
+FileDelete {"timestamp":1525355202707,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcuserdata/scottjones.xcuserdatad/xcschemes/xcschememanagement.plist}"}
+FileDelete {"timestamp":1525355202708,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcuserdata/scottjones.xcuserdatad/UserInterfaceState.xcuserstate}"}
+FileDelete {"timestamp":1525355202708,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/buck-project.meta.json}"}
+FileDelete {"timestamp":1525355202708,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Project.xcodeproj/xcuserdata/scottjones.xcuserdatad/xcschemes/xcschememanagement.plist}"}
+FileDelete {"timestamp":1525355202709,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcuserdata/scottjones.xcuserdatad/.dat.nosync877e.sftvcV}"}
+FileDelete {"timestamp":1525355202710,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=StashUI/UI/UI.xcodeproj/xcuserdata/scottjones.xcuserdatad/xcschemes/xcschememanagement.plist}"}
+FileDelete {"timestamp":1525355202711,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=StashUI/UI/Pods/Pods.xcodeproj/xcuserdata/scottjones.xcuserdatad/xcschemes/xcschememanagement.plist}"}
+FileCreate {"timestamp":1525355202711,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=CREATE, path=StashUI/UI/Pods/.buckconfig}"}
+FileDelete {"timestamp":1525355202713,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcuserdata/scottjones.xcuserdatad/.dat.nosync877e.cxgTHA}"}
+FileDelete {"timestamp":1525355202713,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcuserdata/scottjones.xcuserdatad/.dat.nosync877e.JRQOQc}"}
+FileDelete {"timestamp":1525355202714,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcuserdata/scottjones.xcuserdatad/.dat.nosync877e.LRMBv0}"}
+FileDelete {"timestamp":1525355202714,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcuserdata/scottjones.xcuserdatad/.dat.nosync877e.7VfhJg}"}
+FileDelete {"timestamp":1525355202715,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcuserdata/scottjones.xcuserdatad/.dat.nosync877e.6PCf0m}"}
+FileDelete {"timestamp":1525355202715,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcuserdata/scottjones.xcuserdatad/.dat.nosync877e.NDP1zM}"}
+FileDelete {"timestamp":1525355202715,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcuserdata/scottjones.xcuserdatad/.dat.nosync877e.yaOYrR}"}
+FileDelete {"timestamp":1525355202716,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Project.build/Debug/BuckExampleApp.build/dgph-e6nF5mZZ}"}
+FileCreate {"timestamp":1525355202717,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=CREATE, path=Build/Intermediates.noindex/Project.build/Debug/BuckExampleApp.build/dgph}"}
+FileDelete {"timestamp":1525355202722,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcuserdata/scottjones.xcuserdatad/.dat.nosync877e.h7dH1s}"}
+FileDelete {"timestamp":1525355202723,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Pods.build/Debug/Dwifft.build/dgph-GswpUL3j}"}
+FileCreate {"timestamp":1525355202723,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=CREATE, path=Build/Intermediates.noindex/Pods.build/Debug/Dwifft.build/dgph}"}
+FileDelete {"timestamp":1525355202724,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=StashUI/UI/Pods/Pods.xcodeproj/xcshareddata/xcschemes/.dat.nosync877e.ViYHYM}"}
+FileDelete {"timestamp":1525355202724,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=StashUI/UI/UI.xcodeproj/xcshareddata/xcschemes/.dat.nosync877e.a6NQit}"}
+FileDelete {"timestamp":1525355202725,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Project.xcodeproj/xcshareddata/xcschemes/.dat.nosync877e.xLLpCl}"}
+FileDelete {"timestamp":1525355202725,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=StashUI/UI/Pods/Pods.xcodeproj/xcshareddata/xcschemes/.dat.nosync877e.DGGMLD}"}
+ParseStarted {"timestamp":1525355203645}
+ParseFinished {"timestamp":1525355203646}
+ParseStarted {"timestamp":1525355203678}
+ParseFinished {"timestamp":1525355203680}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":0}

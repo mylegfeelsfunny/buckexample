@@ -1,0 +1,24 @@
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+BUILT_PRODUCTS_DIR = $SYMROOT/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+CONFIGURATION_BUILD_DIR = $BUILT_PRODUCTS_DIR
+DEPLOYMENT_POSTPROCESSING = NO
+EXECUTABLE_PREFIX = lib
+FRAMEWORK_SEARCH_PATHS = $BUILT_PRODUCTS_DIR $BUILT_PRODUCTS_DIR
+HEADER_SEARCH_PATHS = ../../buck-out/gen/_p/BhYsDrwSUm-priv ../../buck-out/gen/_p/BhYsDrwSUm-pub ../../buck-out/gen/_p/mVX61NXPiW-pub ../../buck-out/gen/_p/g86HOdJNEs-pub ../../buck-out ../../buck-out/gen/_p/BhYsDrwSUm-priv ../../buck-out/gen/_p/BhYsDrwSUm-pub ../../buck-out/gen/_p/mVX61NXPiW-pub ../../buck-out/gen/_p/g86HOdJNEs-pub ../../buck-out
+IPHONEOS_DEPLOYMENT_TARGET = 11.3
+LD_RUNPATH_SEARCH_PATHS[sdk=iphoneos*] = @executable_path/Frameworks @loader_path/Frameworks @executable_path/Frameworks @loader_path/Frameworks
+LD_RUNPATH_SEARCH_PATHS[sdk=iphonesimulator*] = @executable_path/Frameworks @loader_path/Frameworks @executable_path/Frameworks @loader_path/Frameworks
+LD_RUNPATH_SEARCH_PATHS[sdk=macosx*] = @executable_path/../Frameworks @loader_path/../Frameworks @executable_path/../Frameworks @loader_path/../Frameworks
+LIBRARY_SEARCH_PATHS = $BUILT_PRODUCTS_DIR $BUILT_PRODUCTS_DIR
+OTHER_CFLAGS = -g -fmodules -fobjc-arc -D BUCK -w '-std=c11' -D 'PRODUCT_NAME=StashUI' -g -fmodules -fobjc-arc -D BUCK -w '-std=c11' -D 'PRODUCT_NAME=StashUI'
+OTHER_CPLUSPLUSFLAGS = -D 'PRODUCT_NAME=StashUI' -iquote /Users/scottjones/BuckExample -D 'PRODUCT_NAME=StashUI'
+OTHER_LDFLAGS = -ObjC -ObjC
+OTHER_SWIFT_FLAGS = -DBUCK -whole-module-optimization -enable-testing -suppress-warnings -DBUCK -whole-module-optimization -enable-testing -suppress-warnings
+PRODUCT_MODULE_NAME = StashUI
+PRODUCT_NAME = StashUI
+REPO_ROOT = /Users/scottjones/BuckExample
+SDKROOT = iphoneos
+SRCROOT = .
+SWIFT_VERSION = 4.1
+TARGET_NAME = StashUI
+USE_HEADERMAP = NO

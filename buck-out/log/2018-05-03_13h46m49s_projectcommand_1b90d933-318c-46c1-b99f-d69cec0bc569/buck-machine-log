@@ -1,0 +1,7 @@
+InvocationInfo {"buildId":"1b90d933-318c-46c1-b99f-d69cec0bc569","superConsoleEnabled":true,"isDaemon":true,"subCommand":"projectcommand","commandArgs":["project","--ide","xcode","--build-with-buck"],"unexpandedCommandArgs":["project","--ide","xcode","--build-with-buck"],"buckLogDir":"buck-out/log","timestampMillis":1525355209524}
+ParseStarted {"timestamp":1525355209779}
+ParseFinished {"timestamp":1525355209782}
+ParseStarted {"timestamp":1525355209808}
+ParseFinished {"timestamp":1525355209809}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":0}

@@ -1,4 +1,4 @@
-[2018-05-03 08:11:55.277][debug][command:null][tid:01][com.sun.jna.Platform] null
+[2018-05-03 09:39:30.001][debug][command:null][tid:01][com.sun.jna.Platform] null
 java.io.FileNotFoundException: /proc/self/exe (No such file or directory)
 	at java.io.RandomAccessFile.open0(Native Method)
 	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
@@ -20,7 +20,7 @@ java.io.FileNotFoundException: /proc/self/exe (No such file or directory)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.facebook.buck.cli.bootstrapper.ClassLoaderBootstrapper.main(ClassLoaderBootstrapper.java:55)
 
-[2018-05-03 08:11:55.383][debug][command:null][tid:01][com.sun.jna.Platform] null
+[2018-05-03 09:39:30.096][debug][command:null][tid:01][com.sun.jna.Platform] null
 java.io.FileNotFoundException: /proc/self/exe (No such file or directory)
 	at java.io.RandomAccessFile.open0(Native Method)
 	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
@@ -44,17 +44,17 @@ java.io.FileNotFoundException: /proc/self/exe (No such file or directory)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.facebook.buck.cli.bootstrapper.ClassLoaderBootstrapper.main(ClassLoaderBootstrapper.java:55)
 
-[2018-05-03 08:11:55.546][info ][command:null][tid:01][com.facebook.buck.cli.HangMonitor] HangMonitorAutoStart
-[2018-05-03 08:11:55.697][debug][command:null][tid:01][com.google.common.util.concurrent.ServiceManager] Starting HangMonitor [RUNNING].
-[2018-05-03 08:11:55.698][debug][command:null][tid:01][com.google.common.util.concurrent.ServiceManager] Started HangMonitor [RUNNING] in 16.93 ms.
-[2018-05-03 08:11:55.749][info ][command:null][tid:01][com.facebook.buck.cli.Main] enabling background process killing for buckd
-[2018-05-03 08:11:55.758][info ][command:null][tid:01][com.facebook.buck.cli.Main] enabled background process killing for buckd
-[2018-05-03 08:11:55.760][info ][command:null][tid:01][com.facebook.buck.cli.Main] initialized bg session killer
-[2018-05-03 08:11:55.873][debug][command:null][tid:13][com.martiansoftware.nailgun.NGSession] Waiting for first client to connect
-[2018-05-03 08:11:55.901][debug][command:null][tid:13][com.martiansoftware.nailgun.NGSession] Client connected
-[2018-05-03 08:11:55.902][debug][command:null][tid:14][com.martiansoftware.nailgun.NGSession] Waiting for first client to connect
-[2018-05-03 08:11:55.913][debug][command:null][tid:15][com.martiansoftware.nailgun.NGCommunicator] Orchestrator thread started
-[2018-05-03 08:11:55.970][debug][command:null][tid:13][com.facebook.buck.util.config.Configs] Loading configuration for /Users/scottjones/BuckExample
-[2018-05-03 08:11:56.033][debug][command:null][tid:13][com.facebook.buck.util.config.Configs] Loaded project configuration file /Users/scottjones/BuckExample/.buckconfig
-[2018-05-03 08:11:56.034][debug][command:null][tid:13][com.facebook.buck.util.config.Configs] Adding configuration overrides RawConfig{values={}}
-[2018-05-03 08:11:56.235][debug][command:null][tid:13][com.facebook.buck.cli.Main] Rotating log.
+[2018-05-03 09:39:30.208][info ][command:null][tid:01][com.facebook.buck.cli.HangMonitor] HangMonitorAutoStart
+[2018-05-03 09:39:30.395][debug][command:null][tid:01][com.google.common.util.concurrent.ServiceManager] Starting HangMonitor [RUNNING].
+[2018-05-03 09:39:30.396][debug][command:null][tid:01][com.google.common.util.concurrent.ServiceManager] Started HangMonitor [RUNNING] in 38.36 ms.
+[2018-05-03 09:39:30.446][info ][command:null][tid:01][com.facebook.buck.cli.Main] enabling background process killing for buckd
+[2018-05-03 09:39:30.452][info ][command:null][tid:01][com.facebook.buck.cli.Main] enabled background process killing for buckd
+[2018-05-03 09:39:30.453][info ][command:null][tid:01][com.facebook.buck.cli.Main] initialized bg session killer
+[2018-05-03 09:39:30.532][debug][command:null][tid:13][com.martiansoftware.nailgun.NGSession] Waiting for first client to connect
+[2018-05-03 09:39:30.580][debug][command:null][tid:14][com.martiansoftware.nailgun.NGSession] Waiting for first client to connect
+[2018-05-03 09:39:30.580][debug][command:null][tid:13][com.martiansoftware.nailgun.NGSession] Client connected
+[2018-05-03 09:39:30.592][debug][command:null][tid:15][com.martiansoftware.nailgun.NGCommunicator] Orchestrator thread started
+[2018-05-03 09:39:30.649][debug][command:null][tid:13][com.facebook.buck.util.config.Configs] Loading configuration for /Users/scottjones/BuckExample
+[2018-05-03 09:39:30.709][debug][command:null][tid:13][com.facebook.buck.util.config.Configs] Loaded project configuration file /Users/scottjones/BuckExample/.buckconfig
+[2018-05-03 09:39:30.709][debug][command:null][tid:13][com.facebook.buck.util.config.Configs] Adding configuration overrides RawConfig{values={}}
+[2018-05-03 09:39:30.923][debug][command:null][tid:13][com.facebook.buck.cli.Main] Rotating log.

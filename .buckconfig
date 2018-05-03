@@ -9,7 +9,8 @@
 
 [apple]
   xctool_default_destination_specifier = platform=iOS Simulator
-  xctool_path = /usr/local/Cellar/xctool/0.3.4/libexec/bin/xctool
+  use_swift_delegate = false
+  use_header_maps_in_xcode = false
 
 [alias]
   app = //:BuckExampleApp

@@ -1,0 +1,37 @@
+InvocationInfo {"buildId":"9779e45a-c891-4200-abe1-4499b7d31b07","superConsoleEnabled":true,"isDaemon":true,"subCommand":"projectcommand","commandArgs":["project","--ide","xcode","--build-with-buck","--combined-project",":BuckExampleApp"],"unexpandedCommandArgs":["project","--ide","xcode","--build-with-buck","--combined-project",":BuckExampleApp"],"buckLogDir":"buck-out/log","timestampMillis":1525351491730}
+FileDelete {"timestamp":1525351491779,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcuserdata/scottjones.xcuserdatad/.dat.nosync7270.Ng4F81}"}
+FileCreate {"timestamp":1525351491779,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=CREATE, path=BuckExampleApp.xcworkspace/xcuserdata/scottjones.xcuserdatad/UserInterfaceState.xcuserstate}"}
+FileDelete {"timestamp":1525351491779,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcuserdata/scottjones.xcuserdatad/.dat.nosync7270.OIexBs}"}
+FileDelete {"timestamp":1525351491780,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcuserdata/scottjones.xcuserdatad/.dat.nosync7270.wBgsLe}"}
+FileDelete {"timestamp":1525351491780,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcuserdata/scottjones.xcuserdatad/.dat.nosync7270.rH4tuy}"}
+FileDelete {"timestamp":1525351491780,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SnapKit.build/dgph-ioFfEemr}"}
+FileDelete {"timestamp":1525351491780,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Dwifft.build/dgph-44WrFpP5}"}
+FileCreate {"timestamp":1525351491780,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=CREATE, path=StashUI/UI/Pods/Dwifft.dia}"}
+FileDelete {"timestamp":1525351491781,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SnapKit.build/Objects-normal/arm64/SnapKit-Swift.h-cab29d6e}"}
+FileDelete {"timestamp":1525351491781,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Dwifft.build/Objects-normal/arm64/Dwifft-Swift.h-3ec24605}"}
+FileDelete {"timestamp":1525351491781,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SnapKit.build/Objects-normal/arm64/SnapKit.swiftmodule-d1055878}"}
+FileDelete {"timestamp":1525351491781,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SnapKit.build/Objects-normal/arm64/SnapKit.swiftdoc-dcbc31ca}"}
+FileDelete {"timestamp":1525351491782,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Dwifft.build/Objects-normal/arm64/Dwifft.swiftmodule-1d29f6d9}"}
+FileDelete {"timestamp":1525351491782,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Dwifft.build/Objects-normal/arm64/Dwifft.swiftdoc-3147c257}"}
+FileDelete {"timestamp":1525351491782,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=StashUI/UI/Pods/SnapKit.dia}"}
+FileDelete {"timestamp":1525351491782,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/UI.build/Debug-iphoneos/StashUI.build/dgph-G9JNjZ7u}"}
+FileDelete {"timestamp":1525351491782,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcuserdata/scottjones.xcuserdatad/.dat.nosync7270.uQsuJk}"}
+FileDelete {"timestamp":1525351491782,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SnapKit.build/dgph-O3JnWYdx}"}
+FileDelete {"timestamp":1525351491783,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Dwifft.build/dgph-UxgSdx6T}"}
+FileDelete {"timestamp":1525351491783,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SnapKit.build/Objects-normal/arm64/SnapKit-Swift.h-343f9512}"}
+FileDelete {"timestamp":1525351491783,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Dwifft.build/Objects-normal/arm64/Dwifft-Swift.h-b618acb9}"}
+FileDelete {"timestamp":1525351491783,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SnapKit.build/Objects-normal/arm64/SnapKit.swiftmodule-9599bb14}"}
+FileDelete {"timestamp":1525351491783,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SnapKit.build/Objects-normal/arm64/SnapKit.swiftdoc-a5dc9a04}"}
+FileDelete {"timestamp":1525351491783,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Dwifft.build/Objects-normal/arm64/Dwifft.swiftmodule-d36eeb10}"}
+FileDelete {"timestamp":1525351491784,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Dwifft.build/Objects-normal/arm64/Dwifft.swiftdoc-ac85e744}"}
+FileDelete {"timestamp":1525351491784,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=BuckExampleApp.xcworkspace/xcshareddata/.dat.nosync7270.x0CCGm}"}
+FileCreate {"timestamp":1525351491784,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=CREATE, path=BuckExampleApp.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist}"}
+FileDelete {"timestamp":1525351491784,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=.git/index.lock}"}
+FileCreate {"timestamp":1525351491784,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=CREATE, path=BuckExampleApp.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings}"}
+FileCreate {"timestamp":1525351491784,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=CREATE, path=BuckExampleApp.xcworkspace/buck-project.meta.json}"}
+ParseStarted {"timestamp":1525351492303}
+ParseFinished {"timestamp":1525351492696}
+ParseStarted {"timestamp":1525351494101}
+ParseFinished {"timestamp":1525351494101}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":0}

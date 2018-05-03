@@ -1,7 +1,0 @@
-InvocationInfo {"buildId":"db4ade73-c8c7-491c-9980-d6126ae63265","superConsoleEnabled":true,"isDaemon":true,"subCommand":"installcommand","commandArgs":["install","--run",":BuckExampleApp"],"unexpandedCommandArgs":["install","--run",":BuckExampleApp"],"buckLogDir":"buck-out/log","timestampMillis":1525304069528}
-FileDelete {"timestamp":1525304069565,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=.git/index.lock}"}
-ParseStarted {"timestamp":1525304070098}
-ParseFinished {"timestamp":1525304070104}
-BuildRuleEvent.Finished {"timestamp":1525304070171,"duration":{"wallMillisDuration":6},"status":"SUCCESS","cacheResult":{"type":"LOCAL_KEY_UNCHANGED_HIT"},"origin":"a8996171-220a-4196-86b5-a3ec3a83e140","ruleKeys":{"ruleKey":{"hashCode":"8171f1276ed38a5037725c427c8014b8de4d7b3f"}},"successTypeName":"MATCHING_RULE_KEY","buildRule":{"type":"apple_bundle","name":"//:BuckExampleApp#dwarf-and-dsym,no-include-frameworks"}}
-Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheLocalKeyUnchangedHits":1,"successUploadCount":0,"failureUploadCount":0}
-ExitCode {"exitCode":0}

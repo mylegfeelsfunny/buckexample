@@ -1,0 +1,4 @@
+buck-out/gen/BuckExample#iphonesimulator-x86_64,swift-compile/BuckExample.o
+buck-out/gen/StashUI/UI/StashUI#iphonesimulator-x86_64,static/libStashUI.a
+buck-out/gen/StashUI/UI/Pods/SnapKit#iphonesimulator-x86_64,static/libSnapKit.a
+buck-out/gen/StashUI/UI/Pods/Dwifft#iphonesimulator-x86_64,static/libDwifft.a

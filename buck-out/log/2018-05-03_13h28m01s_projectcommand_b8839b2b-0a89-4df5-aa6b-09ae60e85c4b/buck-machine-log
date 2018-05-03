@@ -1,0 +1,8 @@
+InvocationInfo {"buildId":"b8839b2b-0a89-4df5-aa6b-09ae60e85c4b","superConsoleEnabled":true,"isDaemon":true,"subCommand":"projectcommand","commandArgs":["project","--ide","xcode","--build-with-buck","--combined-project"],"unexpandedCommandArgs":["project","--ide","xcode","--build-with-buck","--combined-project"],"buckLogDir":"buck-out/log","timestampMillis":1525354081670}
+FileDelete {"timestamp":1525354081690,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=.git/index.lock}"}
+ParseStarted {"timestamp":1525354082164}
+ParseFinished {"timestamp":1525354082170}
+ParseStarted {"timestamp":1525354082208}
+ParseFinished {"timestamp":1525354082209}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":0}

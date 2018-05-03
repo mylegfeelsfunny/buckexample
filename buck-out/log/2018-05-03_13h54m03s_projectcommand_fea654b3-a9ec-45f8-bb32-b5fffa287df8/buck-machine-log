@@ -1,0 +1,10 @@
+InvocationInfo {"buildId":"fea654b3-a9ec-45f8-bb32-b5fffa287df8","superConsoleEnabled":true,"isDaemon":true,"subCommand":"projectcommand","commandArgs":["project","--ide","xcode","--build-with-buck",":BuckExampleApp"],"unexpandedCommandArgs":["project","--ide","xcode","--build-with-buck",":BuckExampleApp"],"buckLogDir":"buck-out/log","timestampMillis":1525355643323}
+FileDelete {"timestamp":1525355643355,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=DELETE, path=.git/index.lock}"}
+FileCreate {"timestamp":1525355643356,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=CREATE, path=BuckExampleApp.xcworkspace/buck-project.meta.json}"}
+FileCreate {"timestamp":1525355643356,"filename":"WatchmanPathEvent{cellPath=/Users/scottjones/BuckExample, kind=CREATE, path=BuckExampleApp.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings}"}
+ParseStarted {"timestamp":1525355643842}
+ParseFinished {"timestamp":1525355643844}
+ParseStarted {"timestamp":1525355643889}
+ParseFinished {"timestamp":1525355643890}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":0}
